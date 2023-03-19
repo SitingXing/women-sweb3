@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- connects to the stylesheets -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- connect to a Google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+  <!-- connect to a Font Aweseom font -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- connect to a favicon -->
+  <link rel="icon" href="images/favicon2.png">
+
+  <title>Women's Web</title>
+
+  <script src="js/js.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a class="skip" href="#main">Skip to Main Content</a>
+      <button onclick="myFunction()" class="button"><i class="fa fa-bars"></i></button>
+      <ul id="dropDown">
+        <li class="current"><a class="current" href="index.html">About</a></li>
+        <li><a href="literature.html">Literature</a></li>
+        <li><a href="history.html">History and Politics</a></li>
+        <li><a href="femdict.html">Feminist Dictionary</a></li>
+      </ul>
+    </nav>
+    <div class="pageTitle">
+      <h1> Woman's Web </h1>
+    </div>
+  </header>
+
+  <main id="main">
+    <img src="images/women_march_pano.jpg" width="200" alt="Image of the Ann Arbor Women's March" id="indexImage">
+
+    <div>
+      <p id="headParagraph">
+        This website started as an idea when Kelsey Toporski was a freshman in college taking my first <a href="https://lsa.umich.edu/women"> Women's Studies</a> class. As a junior, she had the skill set to make it happen. Growing up in a small, rural, conservative town, this class was really her first introduction to feminism and feminist thought, and she wanted to share her new found knowledge with others. This website is where a lot of feminist things could be compiled in one place, purely because people might not otherwise know about it. Her hometown may not have been forward thinking, but it did have internet connection.
+      </p>
+    </div>
+
+    <div id="pageDescription">
+      <p>
+        This website currently contains 3 pages other than this one - click below to see a short description of each!
+      </p>
+      <div class="pages">
+        <div>
+          <h2 class="pagesTitle">
+            <p id="literature">Literature</p>
+            <i class="fa fa-caret-down"></i>
+          </h2>
+          <p class="pagesContent literature">
+            This page features books written by women and for women, books and essays about feminism, poems, plays, and bios of female writers.
+          </p>
+        </div>
+        <div>
+          <h2 class="pagesTitle">
+            <p id="history">History / Politics</p>
+            <i class="fa fa-caret-down"></i>
+          </h2>
+          <p class="pagesContent history">
+            This page features bios of important women in history and women currently in Congress or otherwise politically involved.
+          </p>
+        </div>
+        <div>
+          <h2 class="pagesTitle">
+            <p id="dict">Feminist Dictionary</p>
+            <i class="fa fa-caret-down"></i>
+          </h2>
+          <p class="pagesContent dict">
+            This page features a collection of important feminist terminology that might make reading easier. These will include formal definitions and my own understandings of the terms.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="disclaimer">
+      <p>
+        <span>Kelsey's DISCLAIMER:</span> I did not know everything!! I'm only human - I'm still growing and learning and I have a limited knowledge of things, but I will do my best and work to make this page as inclusive and unbiased as possible.
+      </p>
+    </div>
+  </main>
+
+  <footer>
+    <form class="contact-form">
+      <div class="input-row nameEmail">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+      </div>
+      <div class="input-row message">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message"></textarea>
+      </div>
+      <button type="submit">Send Message</button>
+    </form>
+
+    <div class="footer-info">
+      <div class="info">
+        <p class="citation">Orginal content created by Kelsey Toporski 2019</p>
+      </div>
+      <div class="info">
+        <p>Thanks for visiting!</p>
+      </div>
+      <div class="info">
+        <i class="fa fa-envelope"></i>
+        <i class="fa fa-phone"></i>
+        <i class="fa fa-print"></i>
+      </div>
+      <div class="infoTop">
+        <a href="#top">Back to Top</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
